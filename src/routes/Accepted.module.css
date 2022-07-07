@@ -2,9 +2,9 @@
  @media screen and (min-width: 768px) {
      button.catButton {
          display: flex;
-         margin-top: 20px;
-         margin-left: 200px;
-         margin-right: 200px
+         justify-content: center;
+         position: relative;
+
      }
 
      button.dogButton {
