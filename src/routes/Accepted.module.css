@@ -1,10 +1,10 @@
  /* small screen */
- @media screen and (max-width: 768px) {
+ @media screen and (min-width: 768px) {
      button.catButton {
          display: flex;
-         justify-content: center;
-         position: relative;
-
+         margin-top: 20px;
+         margin-left: 200px;
+         margin-right: 200px
      }
 
      button.dogButton {
@@ -14,7 +14,7 @@
      }
  }
 
- @media screen and (min-width: 220px) {
+ @media screen and (max-width: 220px) {
      button.catButton {
          display: flex;
          margin-top: 20px;
