@@ -1,0 +1,53 @@
+ /* small screen */
+ @media screen and (max-width: 768px) {
+     img.dogCardImage {
+         width: 50%;
+         height: 200px;
+         object-fit: cover;
+     }
+
+     button.DogButton {
+         margin: 2rem;
+         border-radius: 50%;
+         background-color: white;
+         font-size: 20px;
+     }
+
+     a.information {
+         text-decoration: none;
+         font-size: 20px;
+
+         transition: background-color .5s;
+     }
+
+     a.information:hover {
+         background-color: gold;
+     }
+
+ }
+
+ @media screen and (min-width: 220px) {
+     img.dogCardImage {
+         width: 100%;
+         height: 300px;
+         object-fit: cover;
+     }
+
+     button.DogButton {
+         margin: 2rem;
+         border-radius: 50%;
+         background-color: white;
+         font-size: 20px;
+     }
+
+     a.information {
+         text-decoration: none;
+         font-size: 20px;
+
+         transition: background-color .5s;
+     }
+
+     a.information:hover {
+         background-color: gold;
+     }
+ }
